@@ -1,2 +1,25 @@
+.holder{
+            display: flex;           
+            align-items: center;
+            justify-content: space-evenly;
+            border: 2px solid black;
+            height: 50vh;
+            flex-wrap: wrap;
+        }
+        .bx{
+            margin: 0;
+            padding: 0;
+            height: 200px;
+            width: 200px;
+           font-size: 50px;
 
-/* Your CSS Code here. */
+        }
+        #item-1{
+            background-color: green;
+        }
+        #item-2{
+            background-color: red;
+        }
+        #item-3{
+            background-color: blue;
+        }
